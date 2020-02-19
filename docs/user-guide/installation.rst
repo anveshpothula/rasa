@@ -123,6 +123,8 @@ Tools like `virtualenv <https://virtualenv.pypa.io/en/latest/>`_ and `virtualenv
 
     .. tab:: Windows
 
+        Recommended to open command prompt with admin priveleges in windows 10
+
         Create a new virtual environment by choosing a Python interpreter and making a ``.\venv`` directory to hold it:
 
         .. code-block:: bat
@@ -232,6 +234,7 @@ You can install it with the following commands:
     $ pip install rasa[spacy]
     $ python -m spacy download en_core_web_md
     $ python -m spacy link en_core_web_md en
+    
 
 This will install Rasa Open Source as well as spaCy and its language model
 for the English language. We recommend using at least the
